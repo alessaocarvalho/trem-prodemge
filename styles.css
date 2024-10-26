@@ -115,3 +115,27 @@ body {
     border: none;
     margin: 20px;
 }
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+}
+
+.about-content {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 35px;
+    width: 50%;
+}
+
+.about-content h1 {
+    font-size: 37px;
+    padding: 10px;
+}
+
+.about-content p {
+    font-size: 17px;
+    padding: 10px;
+}
