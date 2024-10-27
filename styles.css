@@ -139,3 +139,39 @@ body {
     font-size: 17px;
     padding: 5px;
 }
+
+.particularities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+    color: #FFFFFF;
+}
+
+.particularities h1 {
+    font-size: 37px;
+    padding: 10px;
+}
+
+.particularities-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.particularities-img {
+    width: 600;
+    height: 300px;
+}
+
+.particularities-article {
+    padding: 35px;
+    width: 50%;
+}
+
+.particularities-article p {
+    font-size: 17px;
+    padding: 5px;
+}
