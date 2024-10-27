@@ -57,7 +57,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 300px;
+    gap: 200px;
+}
+
+.overlay-img {
+    width: 437px;
+    height: 275px;
 }
 
 .presentation-content {
