@@ -164,3 +164,30 @@ body {
     padding: 35px;
     width: 50%;
 }
+
+.footer {
+    display: flex;
+    background-color: #040000;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img {
+    padding: 35px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons {
+    margin: 35px;
+}
+
+.social-icon {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 30px;
+}
