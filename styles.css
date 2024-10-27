@@ -170,16 +170,11 @@ body {
     background-color: #040000;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
 }
 
 .footer-img {
-    padding: 35px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 35px;
 }
 
 .footer-icons {
@@ -189,5 +184,5 @@ body {
 .social-icon {
     text-decoration: none;
     margin: 5px;
-    font-size: 30px;
+    font-size: 25px;
 }
