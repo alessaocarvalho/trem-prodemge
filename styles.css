@@ -26,6 +26,7 @@ body {
 }
 
 .section-title {
+    text-align: center;
     font-size: 37px;
     padding: 10px;
 }
@@ -114,10 +115,6 @@ body {
     padding: 35px;
 }
 
-.homologation-text {
-    padding: 20px;
-}
-
 .homologation-buttons {
     display: flex;
     justify-content: space-between;
@@ -155,6 +152,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 35px;
 }
 
 .particularities-img {
