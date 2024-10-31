@@ -132,11 +132,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 35px;
 }
 
 .about-content {
     text-align: center;
-    padding: 35px;
     width: 50%;
 }
 
@@ -212,6 +212,17 @@ body {
 .challenges-content {
     display: flex;
     flex-direction: row;
+    padding: 35px;
+}
+
+.challenge {
+    display: flex;
+    flex-direction: column;
+}
+
+.challenge-img {
+    width: 472px;
+    height: 294px;
 }
 
 .footer {
