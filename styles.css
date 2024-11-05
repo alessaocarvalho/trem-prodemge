@@ -321,8 +321,8 @@ body {
     }
 
     .particularities-img {
-        width: 400px;
-        height: 200px;
+        width: 350px;
+        height: 180px;
     }
 
     .particularities-article {
@@ -354,13 +354,13 @@ body {
     }
 
     .challenge-img {
-        width: 400px;
-        height: 250px;
+        width: 350px;
+        height: 225px;
     }
 
     .challenges-video iframe {
-        width: 400px;
-        height: 225px;
+        width: 350px;
+        height: 197px;
     }
 
     .schedule-content {
