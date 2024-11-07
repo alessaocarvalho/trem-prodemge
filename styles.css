@@ -354,6 +354,18 @@ body {
         width: 90%;
     }
 
+    .homologation {
+        height: auto;
+    }
+
+    .homologation-buttons {
+        flex-direction: column;
+    }
+
+    .hom-btn {
+        margin: 10px;
+    }
+
     .about-content {
         width: 90%;
     }
