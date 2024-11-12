@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -44,10 +45,11 @@ body {
 
 .section-article p {
     padding: 5px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.faq-summary {
-    font-size: 25px;
+.section-article p:hover {
+    transform: scale(1.1);
 }
 
 .navbar {
@@ -60,6 +62,11 @@ body {
 .nav-logo {
     display: flex;
     padding: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
 }
 
 .nav-links {
@@ -69,6 +76,14 @@ body {
     gap: 10px;
     width: 100%;
     list-style: none;
+}
+
+.nav-links li {
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-links li:hover {
+    transform: scale(1.1);
 }
 
 .nav-links a {
@@ -85,6 +100,11 @@ body {
     padding: 8px 16px;
     margin: 10px;
     width: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .presentation {
@@ -109,6 +129,11 @@ body {
 .overlay-img {
     width: 437px;
     height: 275px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay-img:hover {
+    transform: scale(1.1);
 }
 
 .presentation-content {
@@ -117,6 +142,11 @@ body {
 
 .presentation-content p {
     font-size: 47px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.presentation-content p:hover {
+    transform: scale(1.1);
 }
 
 .homologation {
@@ -174,6 +204,11 @@ body {
 .particularities-img {
     width: 579px;
     height: 334px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.particularities-img:hover {
+    transform: scale(1.1);
 }
 
 .particularities-article {
@@ -204,6 +239,11 @@ body {
     height: 260px;
     padding: 10px;
     margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card-img {
@@ -245,6 +285,27 @@ body {
     width: 472px;
     height: 294px;
     padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.challenge-img:hover {
+    transform: scale(1.1);
+}
+
+.challenge h3 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.challenge h3:hover {
+    transform: scale(1.1);
+}
+
+.challenge p {
+    transition: transform 0.3s ease-in-out;
+}
+
+.challenge p:hover {
+    transform: scale(1.1);
 }
 
 .challenges-video {
@@ -275,6 +336,11 @@ body {
     width: 300px;
     height: 200px;
     padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.step:hover {
+    transform: scale(1.1);
 }
 
 .step-img {
@@ -303,7 +369,15 @@ body {
     width: 50%;
 }
 
+.faq-summary {
+    font-size: 25px;
+}
+
 details summary {
+    list-style: none;
+}
+
+details li {
     list-style: none;
 }
 
@@ -312,6 +386,11 @@ summary {
     padding: 8px;
     display: block;
     border-bottom: 1px solid #FFFFFF;
+    transition: transform 0.3s ease-in-out;
+}
+
+summary:hover {
+    transform: scale(1.1);
 }
 
 details[open] summary {
@@ -320,6 +399,10 @@ details[open] summary {
 
 details {
     margin-bottom: 8px;
+}
+
+details[open] {
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .footer {
@@ -332,10 +415,28 @@ details {
 
 .footer-img {
     margin: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-img:hover {
+    transform: scale(1.1);
+}
+
+.footer-content {
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-content:hover {
+    transform: scale(1.1);
 }
 
 .footer-icons {
     margin: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-icons:hover {
+    transform: scale(1.1);
 }
 
 .social-icon {
