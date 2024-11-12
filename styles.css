@@ -9,6 +9,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 17px;
 }
 
 .bg-gray {
@@ -42,8 +43,11 @@ body {
 }
 
 .section-article p {
-    font-size: 17px;
     padding: 5px;
+}
+
+.faq-summary {
+    font-size: 25px;
 }
 
 .navbar {
@@ -80,6 +84,7 @@ body {
     border: none;
     padding: 8px 16px;
     margin: 10px;
+    width: auto;
 }
 
 .presentation {
@@ -136,6 +141,7 @@ body {
 
 .hom-btn {
     margin: 20px;
+    width: auto;
 }
 
 .about {
@@ -275,7 +281,8 @@ body {
     margin: 10px;
 }
 
-.notice {
+.notice,
+.faq {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -289,6 +296,30 @@ body {
 
 .notice-btn {
     font-size: 30px;
+}
+
+.faq-content {
+    text-align: center;
+    width: 50%;
+}
+
+details summary {
+    list-style: none;
+}
+
+summary {
+    cursor: pointer;
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+details[open] summary {
+    border-bottom: none;
+}
+
+details {
+    margin-bottom: 8px;
 }
 
 .footer {
@@ -383,6 +414,7 @@ body {
     .challenges-content {
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
 
     .challenge {
@@ -407,6 +439,11 @@ body {
 
     .step {
         width: 90%;
+    }
+
+    .faq-content {
+        text-align: center;
+        width: auto;
     }
 
     .footer {
