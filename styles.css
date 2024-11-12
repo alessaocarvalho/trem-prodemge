@@ -202,8 +202,8 @@ body {
 }
 
 .particularities-img {
-    width: 579px;
-    height: 334px;
+    width: 434px;
+    height: 250px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -213,7 +213,7 @@ body {
 
 .particularities-article {
     padding: 35px;
-    width: 30%;
+    width: 40%;
 }
 
 .benefits {
