@@ -138,6 +138,7 @@ body {
 
 .presentation-content {
     display: grid;
+    width: 70%;
 }
 
 .presentation-content p {
@@ -182,8 +183,8 @@ body {
 }
 
 .about-content {
-    text-align: center;
-    width: 50%;
+    text-align: left;
+    width: 70%;
 }
 
 .particularities {
@@ -212,8 +213,9 @@ body {
 }
 
 .particularities-article {
+    text-align: left;
     padding: 35px;
-    width: 40%;
+    width: 45%;
 }
 
 .benefits {
@@ -273,19 +275,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     font-size: 17px;
-    width: 600px;
-    height: 540px;
+    width: 500px;
+    height: auto;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .challenge-img {
     width: 472px;
     height: 294px;
-    padding: 10px;
     transition: transform 0.3s ease-in-out;
+}
+
+.challenge-text {
+    text-align: left;
+    width: 450px;
 }
 
 .challenge-img:hover {
@@ -365,8 +370,8 @@ body {
 }
 
 .faq-content {
-    text-align: center;
-    width: 50%;
+    text-align: left;
+    width: 70%;
 }
 
 .faq-summary {
