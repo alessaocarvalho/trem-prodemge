@@ -205,7 +205,6 @@ body {
     width: 434px;
     height: 250px;
     transition: transform 0.3s ease-in-out;
-    margin: 35px;
 }
 
 .particularities-img:hover {
@@ -213,6 +212,7 @@ body {
 }
 
 .particularities-article {
+    margin-left: 35px;
     text-align: left;
 }
 
@@ -278,7 +278,6 @@ body {
     font-size: 17px;
     width: 500px;
     height: auto;
-    padding: 10px;
     margin: 20px;
 }
 
