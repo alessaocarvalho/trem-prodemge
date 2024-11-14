@@ -114,7 +114,6 @@ body {
     background-repeat: no-repeat;
     height: 600px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -122,8 +121,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .overlay-img {
@@ -138,7 +137,6 @@ body {
 
 .presentation-content {
     display: grid;
-    width: 70%;
 }
 
 .presentation-content p {
@@ -198,8 +196,9 @@ body {
 .particularities-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    width: 70%;
 }
 
 .particularities-img {
@@ -215,7 +214,6 @@ body {
 .particularities-article {
     text-align: left;
     padding: 35px;
-    width: 45%;
 }
 
 .benefits {
@@ -269,6 +267,8 @@ body {
 .challenges-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .challenge {
