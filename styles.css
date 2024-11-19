@@ -66,7 +66,7 @@ body {
     width: 400px;
     height: auto;
     margin: 30px;
-    margin-right: 200px;
+    margin-right: 100px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -131,7 +131,7 @@ body {
 
 .overlay-img {
     width: 437px;
-    height: 275px;
+    height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -242,7 +242,7 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     height: auto;
     padding: 10px;
     transition: transform 0.3s ease-in-out;
