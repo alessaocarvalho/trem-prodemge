@@ -271,15 +271,15 @@ body {
 
 .challenges-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 35px;
+    gap: 20px;
     width: 70%;
 }
 
 .challenge {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     font-size: 17px;
     width: 100%;
@@ -320,7 +320,7 @@ body {
 }
 
 .challenges-video {
-    padding: 10px;
+    margin: 35px;
 }
 
 .schedule {
