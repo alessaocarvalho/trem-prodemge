@@ -206,8 +206,8 @@ body {
 }
 
 .particularities-img {
-    width: 434px;
-    height: 250px;
+    max-width: 30%;
+    height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -216,6 +216,7 @@ body {
 }
 
 .particularities-article {
+    max-width: 70%;
     margin-left: 35px;
     text-align: left;
 }
@@ -320,7 +321,7 @@ body {
 }
 
 .challenges-video {
-    margin: 35px;
+    margin-top: 35px;
 }
 
 .schedule {
@@ -491,13 +492,14 @@ details[open] {
     }
 
     .particularities-img {
-        width: 350px;
-        height: 180px;
+        max-width: 100%;
+        height: auto;
     }
 
     .particularities-article {
         margin: 10px;
         width: 90%;
+        max-width: none;
     }
 
     .homologation {
