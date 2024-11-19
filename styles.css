@@ -293,7 +293,7 @@ body {
 }
 
 .challenge-img {
-    width: 70%;
+    width: 40%;
     border-radius: 10px;
     height: auto;
     transition: transform 0.3s ease-in-out;
