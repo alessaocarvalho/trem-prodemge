@@ -206,7 +206,7 @@ body {
 }
 
 .particularities-img {
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -216,7 +216,7 @@ body {
 }
 
 .particularities-article {
-    max-width: 70%;
+    max-width: 60%;
     margin-left: 35px;
     text-align: left;
 }
