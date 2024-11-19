@@ -206,8 +206,8 @@ body {
 }
 
 .particularities-img {
-    width: 434px;
-    height: 250px;
+    width: 100%;
+    height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -216,6 +216,7 @@ body {
 }
 
 .particularities-article {
+    max-width: 60%;
     margin-left: 35px;
     text-align: left;
 }
