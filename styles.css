@@ -118,8 +118,12 @@ body {
     transform: scale(1.1);
 }
 
-.gap {
+.navbar-mobile {
     height: 100px;
+}
+
+.mobile-logo {
+    display: none;
 }
 
 .presentation {
@@ -471,22 +475,19 @@ details[open] {
 
 @media (max-width: 1200px) {
     .navbar {
-        flex-direction: row;
-        justify-content: center;
-        position: sticky;
+        display: none;
     }
 
-    .nav-logo {
+    .navbar-mobile {
         display: flex;
-        width: 90%;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
     }
-
-    .nav-links {
-        display: none;
-    }
-
-    .gap {
-        display: none;
+    
+    .mobile-logo {
+        width: 250px;
+        display: flex;
     }
 
     .overlay-img {
