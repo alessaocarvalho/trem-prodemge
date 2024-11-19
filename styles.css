@@ -112,6 +112,10 @@ body {
     transform: scale(1.1);
 }
 
+.gap {
+    height: 100px;
+}
+
 .presentation {
     background-image: url(img/background.png);
     background-size: cover;
@@ -471,6 +475,10 @@ details[open] {
     }
 
     .nav-links {
+        display: none;
+    }
+
+    .gap {
         display: none;
     }
 
