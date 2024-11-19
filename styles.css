@@ -206,8 +206,8 @@ body {
 }
 
 .particularities-img {
-    width: 100%;
-    height: auto;
+    width: 434px;
+    height: 250px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -216,7 +216,6 @@ body {
 }
 
 .particularities-article {
-    max-width: 60%;
     margin-left: 35px;
     text-align: left;
 }
@@ -538,12 +537,15 @@ details[open] {
     }
 
     .challenges-content {
+        display: flex;
         flex-direction: column;
         align-items: center;
         width: 90%;
     }
 
     .challenge {
+        display: flex;
+        flex-direction: column;
         width: 90%;
         height: auto;
     }
