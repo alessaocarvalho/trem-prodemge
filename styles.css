@@ -375,7 +375,7 @@ body {
     margin: 10px;
 }
 
-.notice,
+.notice, .first-edition,
 .faq {
     display: flex;
     align-items: center;
@@ -390,6 +390,17 @@ body {
 
 .notice-btn {
     font-size: 30px;
+}
+
+.edition-content {
+    width: 1200px;
+}
+
+.edition-videos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .faq-content {
