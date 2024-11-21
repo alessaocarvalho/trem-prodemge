@@ -398,7 +398,7 @@ body {
 }
 
 .faq-summary {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 details summary {
@@ -433,6 +433,33 @@ details[open] {
     border-bottom: 1px solid #FFFFFF;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: #ED1C24;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .footer {
     display: flex;
     background-color: #040000;
@@ -459,18 +486,22 @@ details[open] {
 }
 
 .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 35px;
-    transition: transform 0.3s ease-in-out;
+    width: 150px;
 }
 
-.footer-icons:hover {
-    transform: scale(1.1);
-}
-
-.social-icon {
+.social-icon i {
     text-decoration: none;
     margin: 5px;
     font-size: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon i:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 1200px) {
@@ -488,6 +519,11 @@ details[open] {
     .mobile-logo {
         width: 250px;
         display: flex;
+    }
+
+    .overlay {
+        flex-direction: column;
+        justify-content: center;
     }
 
     .overlay-img {
