@@ -480,6 +480,7 @@ details[open] {
 }
 
 .footer-img {
+    width: 200px;
     margin: 35px;
     transition: transform 0.3s ease-in-out;
 }
