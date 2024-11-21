@@ -636,6 +636,19 @@ details[open] {
         width: 90%;
     }
 
+    .edition-content {
+        width: 90%;
+    }
+
+    .edition-videos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edition-videos iframe {
+        margin: 10px;
+    }
+
     .faq-content {
         text-align: center;
         width: auto;
