@@ -45,11 +45,6 @@ body {
 
 .section-article p {
     padding: 5px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.section-article p:hover {
-    transform: scale(1.1);
 }
 
 .navbar {
@@ -160,11 +155,6 @@ body {
 
 .presentation-content p {
     font-size: 47px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.presentation-content p:hover {
-    transform: scale(1.1);
 }
 
 .homologation {
@@ -317,22 +307,6 @@ body {
 }
 
 .challenge-img:hover {
-    transform: scale(1.1);
-}
-
-.challenge h3 {
-    transition: transform 0.3s ease-in-out;
-}
-
-.challenge h3:hover {
-    transform: scale(1.1);
-}
-
-.challenge p {
-    transition: transform 0.3s ease-in-out;
-}
-
-.challenge p:hover {
     transform: scale(1.1);
 }
 
