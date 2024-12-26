@@ -726,7 +726,8 @@ details[open] {
     }
 
     .edition-videos iframe {
-        margin: 10px;
+        width: 350px;
+        height: 197px;
     }
 
     .faq-summary {
