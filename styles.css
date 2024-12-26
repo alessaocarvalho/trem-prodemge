@@ -231,8 +231,9 @@ body.scrolled .navbar {
     font-size: 47px;
 }
 
-.homologation {
+.section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 35px;
@@ -262,14 +263,6 @@ body.scrolled .navbar {
     width: 600px;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 35px;
-}
-
 .about-content {
     text-align: left;
     width: 1200px;
@@ -278,14 +271,6 @@ body.scrolled .navbar {
     animation-timing-function: linear;
     animation-fill-mode: backwards;
     animation-timeline: view(90% 10%);
-}
-
-.particularities {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 35px;
 }
 
 .particularities-content {
@@ -315,14 +300,6 @@ body.scrolled .navbar {
     max-width: 60%;
     margin-left: 35px;
     text-align: left;
-}
-
-.benefits {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 35px;
 }
 
 .benefits-cards {
@@ -363,21 +340,13 @@ body.scrolled .navbar {
     padding: 10px;
 }
 
-.challenges {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 35px;
-}
-
 .challenges-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
     width: 1200px;
-    
+
     animation-name: slideIn;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
@@ -419,14 +388,6 @@ body.scrolled .navbar {
     animation-timeline: view(90% 10%);
 }
 
-.schedule {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 35px;
-}
-
 .schedule-content {
     display: flex;
     flex-direction: row;
@@ -459,14 +420,6 @@ body.scrolled .navbar {
     margin: 10px;
 }
 
-.notice, .first-edition,
-.faq {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 35px;
-}
-
 .notice-button {
     display: flex;
     justify-content: center;
@@ -490,7 +443,7 @@ body.scrolled .navbar {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
     animation-name: slideIn;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
@@ -620,6 +573,7 @@ details[open] {
         opacity: 0;
         transform: translateY(80px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0px);
@@ -637,7 +591,7 @@ details[open] {
         justify-content: center;
         height: 100px;
     }
-    
+
     .mobile-logo {
         width: 250px;
         display: flex;
@@ -676,9 +630,10 @@ details[open] {
         width: 90%;
         max-width: none;
     }
-
-    .homologation {
-        height: auto;
+    
+    .homologation-content {
+        flex-direction: column;
+        width: 90%;
     }
 
     .homologation-buttons {
@@ -741,7 +696,8 @@ details[open] {
         height: 225px;
     }
 
-    .challenges-video, .notice-button {
+    .challenges-video,
+    .notice-button {
         animation-name: none;
     }
 
