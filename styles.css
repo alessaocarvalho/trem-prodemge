@@ -701,8 +701,8 @@ details[open] {
     }
 
     .challenges-video iframe {
-        width: 350px;
-        height: 197px;
+        width: 100%;
+        height: auto;
     }
 
     .schedule-content {
