@@ -105,6 +105,14 @@ body {
     color: #FFFFFF;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
+
 .section-title {
     text-align: center;
     font-size: 37px;
@@ -229,14 +237,6 @@ body.scrolled .navbar {
 
 .presentation-content p {
     font-size: 47px;
-}
-
-.section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 35px;
 }
 
 .homologation-content {
