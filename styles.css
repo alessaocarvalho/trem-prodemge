@@ -601,16 +601,16 @@ details[open] {
     }
 
     .presentation {
-        height: auto;
+        height: 600px;
         padding: 20px;
     }
 
     .presentation-content {
-        width: 90%;
+        width: 100%;
     }
 
     .presentation-content p {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .particularities-content {
@@ -619,7 +619,7 @@ details[open] {
     }
 
     .particularities-img {
-        max-width: 360px;
+        max-width: 100%;
         height: auto;
     }
 
@@ -662,7 +662,7 @@ details[open] {
     }
 
     .card {
-        max-width: 360px;
+        max-width: 100%;
         height: auto;
     }
 
@@ -691,8 +691,8 @@ details[open] {
     }
 
     .challenge-img {
-        width: 350px;
-        height: 225px;
+        width: 100%;
+        height: auto;
     }
 
     .challenges-video,
