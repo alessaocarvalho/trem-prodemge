@@ -10,7 +10,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 #fade {
@@ -60,7 +60,7 @@ body {
 }
 
 #close-modal i {
-    font-size: 28px;
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -115,7 +115,7 @@ body {
 
 .section-title {
     text-align: center;
-    font-size: 37px;
+    font-size: 2.5rem;
     padding: 10px;
 }
 
@@ -179,7 +179,7 @@ body.scrolled .navbar {
 }
 
 .btn {
-    font-size: 17px;
+    font-size: 1rem;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -236,7 +236,7 @@ body.scrolled .navbar {
 }
 
 .presentation-content p {
-    font-size: 47px;
+    font-size: 3rem;
 }
 
 .homologation-content {
@@ -253,10 +253,6 @@ body.scrolled .navbar {
     animation-timing-function: linear;
     animation-fill-mode: backwards;
     animation-timeline: view(90% 10%);
-}
-
-.homologation-content p {
-    font-size: 30px;
 }
 
 .hom-btn {
@@ -357,7 +353,6 @@ body.scrolled .navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 17px;
     width: 100%;
     height: auto;
 }
@@ -431,7 +426,7 @@ body.scrolled .navbar {
 }
 
 .notice-btn {
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 
 .edition-content {
@@ -456,7 +451,7 @@ body.scrolled .navbar {
 }
 
 .faq-summary {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 details summary {
@@ -528,7 +523,7 @@ details[open] {
     background-color: #040000;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .footer-img {
@@ -559,8 +554,7 @@ details[open] {
 
 .social-icon i {
     text-decoration: none;
-    margin: 5px;
-    font-size: 25px;
+    font-size: 2rem;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -611,8 +605,12 @@ details[open] {
         padding: 20px;
     }
 
+    .presentation-content {
+        width: 90%;
+    }
+
     .presentation-content p {
-        font-size: 32px;
+        font-size: 2.5rem;
     }
 
     .particularities-content {
@@ -652,6 +650,7 @@ details[open] {
     }
 
     .particularities-content {
+        width: 90%;
         animation-name: none;
     }
 
@@ -673,7 +672,7 @@ details[open] {
     }
 
     .card-text {
-        font-size: 17px;
+        font-size: 1rem;
     }
 
     .challenges-content {
